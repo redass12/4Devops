@@ -4,7 +4,7 @@ services:
 
   nginx:
 
-    image: nginx-4dvop
+    image: rossifumax/nginx-4dvop
 
     ports:
 
@@ -12,7 +12,7 @@ services:
 
   haproxy:
 
-    image: haproxy-4dvop
+    image: rossifumax/haproxy-4dvop
 
     ports:
 
